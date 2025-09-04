@@ -9,10 +9,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Scene.unity
     guid: 9e7c44826d2e43c4f8e4034fb9ad3b0e
   - enabled: 1
-    path: Assets/Scenes/Venipunture.unity
+    path: Assets/Scenes/Venipuncture.unity
     guid: e69e81e7ec28b1548a48b17311c3401d
   - enabled: 1
-    path: Assets/Scenes/Gynacology.unity
+    path: Assets/Scenes/Gynecology.unity
     guid: c70bea5562e66204a8fa74ee0aef2ecc
   - enabled: 1
     path: Assets/Scenes/Eye Medication.unity
