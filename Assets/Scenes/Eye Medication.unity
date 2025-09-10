@@ -5405,6 +5405,62 @@ Transform:
   - {fileID: 523973412}
   m_Father: {fileID: 1448874180}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &96325661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 96325662}
+  - component: {fileID: 96325663}
+  m_Layer: 0
+  m_Name: Grab Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &96325662
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96325661}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.48172817, y: -0.0000002980232, z: -0.068307154, w: 0.8736544}
+  m_LocalPosition: {x: 0.024595, y: 0.017141, z: -0.053398}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 115853629072977801}
+  m_LocalEulerAnglesHint: {x: 57.323, y: -7.001, z: -12.772}
+--- !u!114 &96325663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96325661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab52d2f563d6a2547a95671c153ebbb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handPoseType: 1
+  SelectedHandPose: {fileID: 11400000, guid: b67209d6bb68afb43b86a98118cc77ba, type: 2}
+  HandPose: 0
+  LeftHandIsValid: 0
+  RightHandIsValid: 1
+  HandPosition: {fileID: 0}
+  MaxDegreeDifferenceAllowed: 360
+  IndexBlendMin: 0
+  IndexBlendMax: 0
+  ThumbBlendMin: 0
+  ThumbBlendMax: 0
+  ShowAngleGizmo: 1
 --- !u!1 &96443309
 GameObject:
   m_ObjectHideFlags: 0
@@ -109543,6 +109599,7 @@ Transform:
   m_LocalScale: {x: 162.23737, y: 162.23737, z: 162.23737}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 96325662}
   - {fileID: 1393104870}
   m_Father: {fileID: 543450652806284532}
   m_LocalEulerAnglesHint: {x: 8.071, y: -90, z: 90}
